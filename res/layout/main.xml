@@ -22,10 +22,11 @@
           android:layout_height="300sp"
           android:textSize="10sp" 
           android:text="" />
-       <FrameLayout
-          android:id="@+id/camera_preview"
-          android:layout_width="200sp"
+      <Button
+          android:id="@+id/button_start"
+          android:layout_width="wrap_content"
           android:layout_height="fill_parent"
+          android:text="Start"
           />
     </LinearLayout>
 
